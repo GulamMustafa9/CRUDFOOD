@@ -10,10 +10,10 @@ const NavBar = () => {
                     <span className="menu">MENU</span>
                     <ul>
                         <li>
-                            <Link to="/create" style={{marginBottom:"3px"}} className="btn btn-light btn-sm"><span><i className="bi bi-cart4"></i> Create Food</span></Link>
+                            <Link to="/create" style={{marginBottom:"3px", width:"70px"}} className="btn btn-light btn-sm"><span><i className="bi bi-cart4"></i> Create Food</span></Link>
                         </li>
                         <li>
-                            <Link to="/" className="nav-link"><span><i
+                            <Link to="/" className="btn btn-light btn-sm" style={{width:"70px"}}><span><i
                                 className="bi bi-card-heading"></i> All Foods </span></Link>
                         </li>
                     </ul>

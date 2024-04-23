@@ -49,9 +49,9 @@ const AllFood = () => {
                                                     <h5 className="card-title">Price:{item['price']}</h5>
                                                     <p className="card-text">{item['foodCategory']}</p>
                                                     <Link to={`/update/${item['_id']}`}
-                                                          className="btn btn-sm btn-outline-success">Edit</Link>
+                                                          className="btn btn-sm btn-outline-success btnme">Edit</Link>
                                                     <button onClick={() => DeleteData(item['_id'])}
-                                                            className="btn btn-sm btn-outline-danger">Delete
+                                                            className="btn btn-sm btn-outline-danger btnme">Delete
                                                     </button>
                                                 </div>
                                             </div>

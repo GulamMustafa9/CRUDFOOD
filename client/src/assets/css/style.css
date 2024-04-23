@@ -48,9 +48,6 @@ ul,li{
     font-style: normal;
     margin-bottom: 2px;
 }
-.btn-sm{
-    margin-left: 14px;
-}
 .card-body{
     padding-left: 3px;
     padding-right: 3px;
@@ -67,4 +64,7 @@ button{
 }
 .btn-sm {
     margin-left: 0px;
+}
+.btnme{
+    margin-left: 34px;
 }
